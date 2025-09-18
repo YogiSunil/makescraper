@@ -61,7 +61,7 @@ _Complete each task in the order they appear. Use [GitHub Task List](https://hel
 
 ### Lesson Plans
 
-- [**BEW 2.5** - Scraping the Web](https://make-school-courses.github.io/BEW-2.5-Strongly-Typed-Languages/#/Lessons/WebScraping.md): Concepts and examples covered in class related to web scraping and crawling.
+- [**ACS 4210** - Scraping the Web](https://tech-at-du.github.io/ACS-4210-Strongly-Typed-Languages/#/Lessons/WebScraping.md): Concepts and examples covered in class related to web scraping and crawling.
 
 ### Example Code
 
