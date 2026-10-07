@@ -1,6 +1,6 @@
 # 🕷 makescraper
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/YOUR_GITHUB_USERNAME/makescraper)](https://goreportcard.com/report/github.com/YOUR_GITHUB_USERNAME/makescraper)
+[![Go Report Card](https://goreportcard.com/badge/github.com/YogiSunil/makescraper)](https://goreportcard.com/report/github.com/YogiSunil/makescraper)
 
 _Create your very own web scraper and crawler using Go and [Colly](https://go-colly.org)!_
 
@@ -28,11 +28,11 @@ _Create your very own web scraper and crawler using Go and [Colly](https://go-co
     $ git clone git@github.com:Make-School-Labs/makescraper.git
     $ cd makescraper
     $ git remote rm origin
-    $ git remote add origin git@github.com:YOUR_GITHUB_USERNAME/makescraper.git
+    $ git remote add origin git@github.com:YogiSunil/makescraper.git
     $ go mod download
     ```
 
-3. Open `README.md` in your editor and replace all instances of `YOUR_GITHUB_USERNAME` with your GitHub username to enable the Go Report Card badge.
+3. Open `README.md` in your editor and replace all instances of `YogiSunil` with your GitHub username to enable the Go Report Card badge.
 
 ## Deliverables
 
@@ -43,19 +43,19 @@ _Complete each task in the order they appear. Use [GitHub Task List](https://hel
 #### Scraping
 
 - [ ] **IMPORTANT**: Complete the Web Scraper Workflow worksheet distributed in class.
-- [ ] Create a `struct` to store your data.
-- [ ] Refactor the `c.OnHTML` callback on line `16` to use the selector(s) you tested while completing the worksheet.
-- [ ] Print the data you scraped to `stdout`.
+- [x] Create a `struct` to store your data.
+- [x] Refactor the `c.OnHTML` callback on line `16` to use the selector(s) you tested while completing the worksheet.
+- [x] Print the data you scraped to `stdout`.
 
 ##### Stretch Challenges
 
-- [ ] Add more fields to your `struct`. Extract multiple data points from the website. Print them to `stdout` in a readable format.
+- [x] Add more fields to your `struct`. Extract multiple data points from the website. Print them to `stdout` in a readable format.
 
 #### Serializing & Saving
 
-- [ ] Serialize the `struct` you created to JSON. Print the JSON to `stdout` to validate it.
-- [ ] Write scraped data to a file named `output.json`.
-- [ ] **Add, commit, and push to GitHub**.
+- [x] Serialize the `struct` you created to JSON. Print the JSON to `stdout` to validate it.
+- [x] Write scraped data to a file named `output.json`.
+- [x] **Add, commit, and push to GitHub**.
 
 ## Resources
 
