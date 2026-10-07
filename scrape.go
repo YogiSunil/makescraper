@@ -1,30 +1,58 @@
-package main
+﻿package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"os"
+	"strings"
 
 	"github.com/gocolly/colly"
 )
 
-// main() contains code adapted from example found in Colly's docs:
-// http://go-colly.org/docs/examples/basic/
+// Story holds data scraped from a Hacker News front page row.
+type Story struct {
+	Rank  string `json:"rank"`
+	Title string `json:"title"`
+	URL   string `json:"url"`
+	Site  string `json:"site"`
+}
+
 func main() {
-	// Instantiate default collector
 	c := colly.NewCollector()
 
-	// On every a element which has href attribute call callback
-	c.OnHTML("a[href]", func(e *colly.HTMLElement) {
-                link := e.Attr("href")
+	var stories []Story
 
-		// Print link
-                fmt.Printf("Link found: %q -> %s\n", e.Text, link)
+	c.OnHTML("tr.athing", func(e *colly.HTMLElement) {
+		stories = append(stories, Story{
+			Rank:  strings.TrimSuffix(e.ChildText("span.rank"), "."),
+			Title: e.ChildText("span.titleline > a"),
+			URL:   e.ChildAttr("span.titleline > a", "href"),
+			Site:  e.ChildText("span.sitestr"),
+		})
 	})
 
-	// Before making a request print "Visiting ..."
 	c.OnRequest(func(r *colly.Request) {
 		fmt.Println("Visiting", r.URL.String())
 	})
 
-	// Start scraping on https://hackerspaces.org
-	c.Visit("https://hackerspaces.org/")
+	if err := c.Visit("https://news.ycombinator.com/"); err != nil {
+		fmt.Fprintln(os.Stderr, "visit failed:", err)
+		os.Exit(1)
+	}
+
+	for _, s := range stories {
+		fmt.Printf("%2s. %s (%s)\n    %s\n", s.Rank, s.Title, s.Site, s.URL)
+	}
+
+	data, err := json.MarshalIndent(stories, "", "  ")
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "marshal failed:", err)
+		os.Exit(1)
+	}
+	fmt.Println(string(data))
+
+	if err := os.WriteFile("output.json", data, 0644); err != nil {
+		fmt.Fprintln(os.Stderr, "write failed:", err)
+		os.Exit(1)
+	}
 }

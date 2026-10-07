@@ -1,0 +1,182 @@
+[
+  {
+    "rank": "1",
+    "title": "Mistral Large 4",
+    "url": "https://mistral.ai/news/mistral-large-4/\\",
+    "site": "mistral.ai"
+  },
+  {
+    "rank": "2",
+    "title": "Nobel Prize in Physics goes to Francis Halzen",
+    "url": "https://www.nobelprize.org/prizes/physics/2026/",
+    "site": "nobelprize.org"
+  },
+  {
+    "rank": "3",
+    "title": "Release of Polars 2.0",
+    "url": "https://pola.rs/posts/release-polars-2/",
+    "site": "pola.rs"
+  },
+  {
+    "rank": "4",
+    "title": "JetBrains reported a net financial loss first time in its tracked history",
+    "url": "https://www.helgilibrary.com/companies/jetbrains",
+    "site": "helgilibrary.com"
+  },
+  {
+    "rank": "5",
+    "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
+    "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
+    "site": "dinculescu.dev"
+  },
+  {
+    "rank": "6",
+    "title": "Benchmark in Milliseconds",
+    "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
+    "site": "matklad.github.io"
+  },
+  {
+    "rank": "7",
+    "title": "Gleam doesn't compile to Erlang source anymore",
+    "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+    "site": "gleam.run"
+  },
+  {
+    "rank": "8",
+    "title": "AI is now capable of developing its own inference hardware",
+    "url": "https://github.com/FeSens/openTPU",
+    "site": "github.com/fesens"
+  },
+  {
+    "rank": "9",
+    "title": "Mathematics of Geothermal Energy",
+    "url": "https://www.ebsco.com/research-starters/power-and-energy/mathematics-geothermal-energy/",
+    "site": "ebsco.com"
+  },
+  {
+    "rank": "10",
+    "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
+    "url": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
+    "site": "techdirt.com"
+  },
+  {
+    "rank": "11",
+    "title": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
+    "url": "https://peterszentkiralyi.eu/darkplug/",
+    "site": "peterszentkiralyi.eu"
+  },
+  {
+    "rank": "12",
+    "title": "I'm the AGI that's wiping out humanity",
+    "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
+    "site": "ajmoon.com"
+  },
+  {
+    "rank": "13",
+    "title": "Subquadratic 3SUM and Subcubic APSP",
+    "url": "https://arxiv.org/abs/2610.06783",
+    "site": "arxiv.org"
+  },
+  {
+    "rank": "14",
+    "title": "Former German spy chief arrested for attempted treason",
+    "url": "https://www.reuters.com/business/finance/former-german-spy-chief-detained-suspicion-espionage-treason-bild-reports-2026-10-06/",
+    "site": "reuters.com"
+  },
+  {
+    "rank": "15",
+    "title": "Beam: Reflection's 501B open-weight model",
+    "url": "https://reflection.ai/blog/introducing-beam",
+    "site": "reflection.ai"
+  },
+  {
+    "rank": "16",
+    "title": "Nature's capacity to 'bounce back' when species are lost is vastly overestimated",
+    "url": "https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html",
+    "site": "phys.org"
+  },
+  {
+    "rank": "17",
+    "title": "The Early History of Smalltalk (1993)",
+    "url": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
+    "site": "worrydream.com"
+  },
+  {
+    "rank": "18",
+    "title": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
+    "url": "https://www.parseable.com",
+    "site": "parseable.com"
+  },
+  {
+    "rank": "19",
+    "title": "California Closed the Montana License Plate Loophole",
+    "url": "https://www.thedrive.com/news/heres-how-california-closed-the-montana-license-plate-loophole",
+    "site": "thedrive.com"
+  },
+  {
+    "rank": "20",
+    "title": "Dust: Pretraining Transformers Without Backpropagation",
+    "url": "https://qlabs.sh/research/dust",
+    "site": "qlabs.sh"
+  },
+  {
+    "rank": "21",
+    "title": "Find the flattest route between any two points in SF",
+    "url": "https://flattensf.com/",
+    "site": "flattensf.com"
+  },
+  {
+    "rank": "22",
+    "title": "Direct retinal projection display for smart glasses using a meta-optic mirror",
+    "url": "https://www.tdk.com/en/news_center/press/20261002_01.html",
+    "site": "tdk.com"
+  },
+  {
+    "rank": "23",
+    "title": "Friendship ended with Deno, now Node is my best friend",
+    "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+    "site": "dbushell.com"
+  },
+  {
+    "rank": "24",
+    "title": "World's First enhanced geothermal power plant completed in just 23 months",
+    "url": "https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/",
+    "site": "techcrunch.com"
+  },
+  {
+    "rank": "25",
+    "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+    "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+    "site": "vals.ai"
+  },
+  {
+    "rank": "26",
+    "title": "Testing 12 different Zigbee temperature/humidity sensors",
+    "url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/",
+    "site": "smarthomescene.com"
+  },
+  {
+    "rank": "27",
+    "title": "Competitive Programmer's Handbook (2018) [pdf]",
+    "url": "https://cses.fi/book/book.pdf",
+    "site": "cses.fi"
+  },
+  {
+    "rank": "28",
+    "title": "The complement of true is true, except when it's false",
+    "url": "https://dryperspective.github.io/posts/complement-of-true/",
+    "site": "dryperspective.github.io"
+  },
+  {
+    "rank": "29",
+    "title": "Two ARM64-specific compiler optimization bugs, in GCC 15/16 and Rust, hit curl",
+    "url": "https://mastodon.social/@bagder/117392573268225646",
+    "site": "mastodon.social/bagder"
+  },
+  {
+    "rank": "30",
+    "title": "The lamps in my house",
+    "url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
+    "site": "arslan.io"
+  }
+]
